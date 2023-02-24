@@ -17,14 +17,13 @@ body {
   background-color: var(--light-grey);
 }
 main {
-  max-width: 320px;
+  max-width: 20rem;
   border-radius: 1rem;
   background-color: white;
 }
 
 .qr-card {
   font-family: var(--font-reg);
-  /* margin: 1rem; */
 }
 
 .qr-card__description {
@@ -32,17 +31,14 @@ main {
   font-weight: var(--fw-regular);
   color: var(--grey-blue);
   text-indent: 0.5rem;
-  margin: 1rem 2rem;
-  margin-bottom: 2rem;
+  margin: 1rem 2rem 1rem 2rem;
   text-align-last: center;
-  line-height: 1.2;
 }
 
 .qr-card__title {
   font-size: 1.3rem;
   text-indent: 0.5rem;
   margin: 1rem 2rem;
-  line-height: 1.2;
   color: var(--dark-blue);
   font-weight: var(--fw-bold);
 }
